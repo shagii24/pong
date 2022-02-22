@@ -101,14 +101,6 @@ def main():
     writer.write(f"Player A: {myBall.scores[0]} PlayerB: {myBall.scores[1]}",align="center",font=("Arial",30,("bold","italic")))
     myBall.ballMovement(paddle_a,paddle_b,writer)
 
-# while True:
-#     
-#     
-#     writer.pu()
-#     writer.goto(1,1.15)
-#     writer.write("DRAG!",align="center",font=("Arial",30,("bold","italic")))
-#     # Border checking
-
 # #main game loop
 if __name__=="__main__":
     msg=main()
